@@ -1,0 +1,15 @@
+{
+    "$schema": "../../Example.Website/umbraco-package-schema.json",
+    "id": "example",
+    "name": "Example",
+    "allowPackageTelemetry": true,
+    "version": "1.0.0",
+    "extensions": [
+        {
+          "name": "Example EntryPoint",
+          "alias": "example.entrypoint",
+          "type": "backofficeEntryPoint",
+          "js": "/app_plugins/Example/pagenotfound.js"
+        }
+      ]
+}
